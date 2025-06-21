@@ -223,5 +223,28 @@ export const DATA = {
       image: "",
       video: "./CareerAI.mp4",
     },
+    {
+      title: "Lumina - Premium Wallpaper Collection",
+      href: "https://lumina-two-ruby.vercel.app/",
+      dates: "June 2025 - Present",
+      active: true,
+      description:
+        "A Stunning Wallpaper Discovery Platform using Modern Web Technologies. This responsive Web App delivers a Cinematic browsing Experience with Advanced Features.",
+      technologies: ["Next.js", "TypeScript" , "Material-UI" , "TailwindCSS", "Pexels API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://lumina-two-ruby.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/malik-shaheer03/Lumina",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "./Lumina.mp4",
+    },
   ],
 } as const;
