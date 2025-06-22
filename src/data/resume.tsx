@@ -246,5 +246,28 @@ export const DATA = {
       image: "",
       video: "./Lumina.mp4",
     },
+    {
+      title: "SecureBank",
+      href: "https://secure-bank-nine.vercel.app/",
+      dates: "June 2025 - Present",
+      active: true,
+      description:
+        "A Modern Banking Web App evolved from a first-semester Console Project into a secure, user-friendly Financial Platform. Built with Firebase and Real-Time Features, It Redefines Traditional Banking with a Sleek, Intuitive Interface.",
+      technologies: ["React.js" , "Next.js", "TypeScript" , "FireBase" , "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://secure-bank-nine.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/malik-shaheer03/SecureBank",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "./SecureBank.mp4",
+    },
   ],
 } as const;
