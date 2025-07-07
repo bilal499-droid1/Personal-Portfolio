@@ -113,7 +113,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "./traccar.mp4",
+      video: "./Traccar.mp4",
     },
     {
       title: "SMST Dashboard",
@@ -245,7 +245,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "./secureBank.mp4",
+      video: "./SecureBank.mp4",
     },
     {
       title: "Netflix Clone",
