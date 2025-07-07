@@ -113,7 +113,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "./Traccar.mp4",
+      video: "./traccar.mp4",
     },
     {
       title: "SMST Dashboard",
@@ -121,7 +121,7 @@ export const DATA = {
       dates: "May 2025 - Present",
       active: true,
       description:
-        "Developed a multi-screen dashboard with sections for video content, resources, account settings, and course enrollment. Designed interactive popups and responsive layouts for enhanced user experience and smooth navigation.",
+        "Developed a multi-screen dashboard with sections for video content, resources, account settings, and course enrollment.",
       technologies: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
       links: [
         {
