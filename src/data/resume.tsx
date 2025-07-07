@@ -269,5 +269,28 @@ export const DATA = {
       image: "",
       video: "./SecureBank.mp4",
     },
+    {
+      title: "Netflix Clone",
+      href: "https://netflix-clone-zeta-gules.vercel.app/",
+      dates: "July 2025 - Present",
+      active: true,
+      description:
+        "A pixel-perfect Netflix Clone built with Next.js 15, TypeScript, and Tailwind CSS, featuring real-time data from TMDB API and Firebase Authentication. Includes multi-page navigation, search, watchlist, and responsive design that mirrors the Netflix experience.",
+      technologies: ["Next.js", "TypeScript" , "Tailwind CSS" , "FireBase" , "TMDB API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://netflix-clone-zeta-gules.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/malik-shaheer03/netflix-clone",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "./netflixClone.mp4",
+    },
   ],
 } as const;
