@@ -99,15 +99,7 @@ export const DATA = {
       active: true,
       description:
         "A car tracking and security system with a landing page, sign-in/signup, dashboard and Firebase integration.",
-      technologies: [
-        "React.js",
-        "Firebase",
-        "React Icons",
-        "CSS",
-        "React Router",
-        "Animations",
-        "GitHub Pages"
-      ],
+      technologies: ["React.js", "CSS", "Firebase", "GitHub Pages"],
       links: [
         {
           type: "Website",
@@ -130,16 +122,7 @@ export const DATA = {
       active: true,
       description:
         "Developed a multi-screen dashboard with sections for video content, resources, account settings, and course enrollment. Designed interactive popups and responsive layouts for enhanced user experience and smooth navigation.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "GitHub Pages",
-        "Responsive Design",
-        "Interactive Popups",
-        "Smooth User Experience",
-        ,
-      ],
+      technologies: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
       links: [
         {
           type: "Website",
@@ -162,12 +145,7 @@ export const DATA = {
       active: true,
       description:
         "A personal portfolio website built with Next.js to showcase my projects and skills. The website features a sleek design, smooth navigation, and is fully responsive. Deployed on Vercel for fast, reliable performance and continuous integration.",
-      technologies: [
-        "Next.js",
-        "TailwindCSS",
-        "TypeScript",
-        "Vercel",
-      ],
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
       links: [
         {
           type: "Website",
@@ -207,7 +185,7 @@ export const DATA = {
       active: true,
       description:
         "This AI-driven Career Guidance System leverages expert system principles to analyze user interests, skills, and goals, providing personalized and actionable career recommendations through a dynamic web interface.",
-      technologies: ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Expert System"],
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Expert System"],
       links: [
         {
           type: "Website",
@@ -230,7 +208,7 @@ export const DATA = {
       active: true,
       description:
         "A Stunning Wallpaper Discovery Platform using Modern Web Technologies. This responsive Web App delivers a Cinematic browsing Experience with Advanced Features.",
-      technologies: ["Next.js", "TypeScript" , "Material-UI" , "TailwindCSS", "Pexels API"],
+      technologies: ["Next.js", "TypeScript" , "Material-UI" , "Tailwind CSS", "Pexels API"],
       links: [
         {
           type: "Website",
@@ -267,7 +245,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "./SecureBank.mp4",
+      video: "./secureBank.mp4",
     },
     {
       title: "Netflix Clone",
