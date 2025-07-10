@@ -16,7 +16,8 @@ export const DATA = {
   skills: [
     "Programming Language: Java, Python, C++",
     "Software Development: OOP, DSA",
-    "Web Development: HTML, CSS, JavaScript, React.js, Node.js, Next.js",
+    "Web Development: JavaScript, TypeScript, React.js, Next.js",
+    "Styling & UI: Tailwind CSS, Material UI (MUI)",
     "Mobile Development: Flutter",
     "UI/UX Design: Figma"
   ],
