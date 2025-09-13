@@ -289,7 +289,7 @@ export const DATA = {
 
     {
       title: "RangeFit Gym",
-      href: "https://netflix-clone-zeta-gules.vercel.app/",
+      href: "https://range-fit-gym.vercel.app/",
       dates: "Sep 2025 - Present",
       active: true,
       description:
