@@ -9,14 +9,16 @@ export const DATA = {
   location: "ISLAMABAD, PAKISTAN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "A Software Developer and Front-End Enthusiast passionate about building user-friendly web experiences with modern technologies. ",
+    "A Software Developer and Full Stack Developer Passionate About Building User-Friendly Web Experiences With Modern Technologies.",
   summary:
-    "I'm a passionate Software Developer specializing in Python, Java, C++, Web Development (React.js, Node.js), and Mobile App Development (Flutter). I also bring experience in Cloud Computing (AWS), Database Management (MongoDB, Firebase) and UI/UX Design (Figma).",
+    "I'm a passionate Software Developer specializing in Python, Java, C++, Web Development (React.js, Node.js, Express.js, Node.js), and Mobile App Development (Flutter). I also bring experience in Cloud Computing (AWS), Database Management (MongoDB, Firebase) and UI/UX Design (Figma).",
   avatarUrl: "/mine.png",
   skills: [
     "Programming Language: Java, Python, C++",
     "Software Development: OOP, DSA",
-    "Web Development: JavaScript, TypeScript, React.js, Next.js",
+    "Web Development: JavaScript, TypeScript, React.js, Next.js, Express.js, Node.js",
+    "Mobile App Development: Flutter",
+    "Database Management: MongoDB, Firebase",
     "Styling & UI: Tailwind CSS, Material UI (MUI)",
     "Mobile Development: Flutter",
     "UI/UX Design: Figma"
@@ -56,18 +58,18 @@ export const DATA = {
   },
 
   work: [
-    {
-      company: "Upwork",
-      href: "https://www.upwork.com/freelancers/~01817b3a08659da3c8",
-      badges: [],
-      location: "Remote",
-      title: "Freelancer Web Developer",
-      logoUrl: "/upwork.svg",
-      start: "2022",
-      end: " Ongoing",
-      description:
-        "As a full-stack web developer, I specialize in creating dynamic, responsive websites and applications using Next.js and Tailwind CSS, backed by robust databases like MongoDB and PostgreSQL. With experience on platforms like Upwork, I've successfully delivered high-quality solutions that meet clients' needs and exceed their expectations.",
-    },
+    // {
+    //   company: "Upwork",
+    //   href: "https://www.upwork.com/freelancers/~01817b3a08659da3c8",
+    //   badges: [],
+    //   location: "Remote",
+    //   title: "Freelancer Web Developer",
+    //   logoUrl: "/upwork.svg",
+    //   start: "2022",
+    //   end: " Ongoing",
+    //   description:
+    //     "As a full-stack web developer, I specialize in creating dynamic, responsive websites and applications using Next.js and Tailwind CSS, backed by robust databases like MongoDB and PostgreSQL. With experience on platforms like Upwork, I've successfully delivered high-quality solutions that meet clients' needs and exceed their expectations.",
+    // },
 
     {
       company: "GDSC CUI",
@@ -80,6 +82,19 @@ export const DATA = {
       end: "Feb 2024",
       description:
         "As the Co-Lead of GDSC CUI, I played a key role in leading web development initiatives, mentoring students, and organizing events to foster a collaborative learning environment. My focus was on guiding the team in building impactful projects using the latest web technologies, helping our university community grow in technical expertise and innovation.",
+    },
+
+    {
+      company: "Pakistan Television Corporation Limited",
+      badges: ["Internship"],
+      href: "",
+      location: "Onsite",
+      title: "Web Developer",
+      logoUrl: "/ptv.png",
+      start: "Aug 2025",
+      end: "Oct 2025",
+      description:
+        "Completed an On-Site Internship where I Contributed to Designing, Developing, and Optimizing Web Applications. Gained Hands-On Experience in both Frontend and Backend Technologies, Improving System Functionality and User Experience. Strengthened Skills in Collaborative Development and Problem-Solving within a Professional Environment.",
     },
   ],
   education: [
@@ -271,5 +286,25 @@ export const DATA = {
       image: "",
       video: "./netflixClone.mp4",
     },
+
+    {
+      title: "RangeFit Gym",
+      href: "https://netflix-clone-zeta-gules.vercel.app/",
+      dates: "Sep 2025 - Present",
+      active: true,
+      description:
+        "A comprehensive Full-Stack Web Application that modernizes gym operations by replacing traditional manual record-keeping with a digital management system.",
+      technologies: ["Next.js", "React.js", "TypeScript" , "Tailwind CSS" , "FireBase" , "Framer Motion"],
+      links: [
+        {
+          type: "Website",
+          href: "https://range-fit-gym.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "./rangeFit.mp4",
+    },
+
   ],
 } as const;
