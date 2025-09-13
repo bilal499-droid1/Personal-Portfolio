@@ -169,6 +169,8 @@ export default function Page() {
                 <Link
                   href={DATA.contact.social.Instagram.url}
                   className="text-blue-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   with a direct question on instagram
                 </Link>{" "}
