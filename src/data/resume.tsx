@@ -289,7 +289,7 @@ export const DATA = {
 
     {
       title: "RangeFit Gym",
-      href: "https://range-fit-gym.vercel.app/",
+      href: "https://range-fit-gym-demo.vercel.app/",
       dates: "Sep 2025 - Present",
       active: true,
       description:
@@ -298,7 +298,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://range-fit-gym.vercel.app/",
+          href: "https://range-fit-gym-demo.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
