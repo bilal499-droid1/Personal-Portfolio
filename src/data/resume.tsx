@@ -265,7 +265,7 @@ export const DATA = {
     },
     {
       title: "Netflix Clone",
-      href: "https://netflix-clone-zeta-gules.vercel.app/",
+      href: "https://netflix-clone-ashy-eight-83.vercel.app/",
       dates: "July 2025 - Present",
       active: true,
       description:
@@ -274,7 +274,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://netflix-clone-zeta-gules.vercel.app/",
+          href: "https://netflix-clone-ashy-eight-83.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
