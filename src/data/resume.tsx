@@ -14,14 +14,12 @@ export const DATA = {
     "I'm a passionate Software Developer specializing in Python, Java, C++, Web Development (React.js, Node.js, Express.js, Node.js), and Mobile App Development (Flutter). I also bring experience in Cloud Computing (AWS), Database Management (MongoDB, Firebase) and UI/UX Design (Figma).",
   avatarUrl: "/mine.png",
   skills: [
-    "Programming Language: Java, Python, C++",
-    "Software Development: OOP, DSA",
-    "Web Development: JavaScript, TypeScript, React.js, Next.js, Express.js, Node.js",
-    "Mobile App Development: Flutter",
+    "Software Development: Python, Java, C++, OOP, DSA",
+    "Full Stack and Mobile: React.js, React Native, TypeScript, Next.js, Node.js, Express.js",
     "Database Management: MongoDB, Firebase",
     "Styling & UI: Tailwind CSS, Material UI (MUI)",
-    "Mobile Development: Flutter",
-    "UI/UX Design: Figma"
+    "UI/UX Design: Figma",
+    "Version Control: Git, GitHub",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
