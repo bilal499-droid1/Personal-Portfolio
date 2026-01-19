@@ -9,18 +9,29 @@ export const DATA = {
   location: "ISLAMABAD, PAKISTAN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "A Software Developer and Full Stack Developer Passionate About Building User-Friendly Web Experiences With Modern Technologies.",
+    `Full Stack Software Engineer building scalable SaaS & AI-driven Web and Mobile Applications. 
+  
+I specialize in Next.js, React.js, React Native, TypeScript and Node.js, Delivering production-ready Systems with real Business Impact. From role-based SaaS platforms to AI-Powered Mobile Apps.`,
   summary:
-    "I'm a passionate Software Developer specializing in Python, Java, C++, Web Development (React.js, Node.js, Express.js, Node.js), and Mobile App Development (Flutter). I also bring experience in Cloud Computing (AWS), Database Management (MongoDB, Firebase) and UI/UX Design (Figma).",
+    `I’m a Full Stack Software Engineer with 2+ years of hands-on experience building end-to-end Web and Mobile Applications using Next.js, React, React Native, TypeScript and Node.js.
+    
+  I’ve worked on scalable SaaS products and AI-powered Platforms, Designing Systems that Automate Workflows, Improve Efficiency and Deliver seamless User Experiences. My work includes real-time Applications, Secure Authentication Systems, Cloud-Based Architectures and API-driven Backends.
+
+  Beyond development, I value clean Architecture, Maintainable Code and Performance-Optimized UI/UX. I enjoy collaborating in Remote and Agile Environments, Taking ownership from Idea to Deployment and Continuously learning Modern Technologies.
+  
+  Currently open to Remote, International and Freelance Opportunities where I can contribute to impactful products and grow with a strong Engineering Team.`,
   avatarUrl: "/mine.png",
-  skills: [
-    "Software Development: Python, Java, C++, OOP, DSA",
-    "Full Stack and Mobile: React.js, React Native, TypeScript, Next.js, Node.js, Express.js",
-    "Database Management: MongoDB, Firebase",
-    "Styling & UI: Tailwind CSS, Material UI (MUI)",
-    "UI/UX Design: Figma",
-    "Version Control: Git, GitHub",
+
+skills: [
+  "Frontend & Mobile: Next.js, React.js, React Native, TypeScript",
+  "Backend & APIs: Node.js, Express.js, FastAPI, REST APIs, Microservices",
+  "Databases & Cloud: Firebase (Auth, Firestore, Cloud Functions), MongoDB",
+  "Styling & UI: Tailwind CSS, Material UI (MUI)",
+  "AI & Automation: Google Gemini AI, NLP Basics, ML-driven Recommendations",
+  "UI/UX Design: Figma",
+  "Version Control & Collaboration: Git, GitHub"
   ],
+
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "shaheermalik03@gmail.com",
@@ -252,7 +263,7 @@ export const DATA = {
       active: true,
       description:
         "A Modern Banking Web App evolved from a first-semester Console Project into a secure, user-friendly Financial Platform. Built with Firebase and Real-Time Features, It Redefines Traditional Banking with a Sleek, Intuitive Interface.",
-      technologies: ["React.js" , "Next.js", "TypeScript" , "Tailwind CSS" , "FireBase"],
+      technologies: ["React.js" , "Next.js", "TypeScript" , "Tailwind CSS" , "Firebase"],
       links: [
         {
           type: "Website",
@@ -275,7 +286,7 @@ export const DATA = {
       active: true,
       description:
         "A pixel-perfect Netflix Clone built with Next.js 15, TypeScript, and Tailwind CSS, featuring real-time data from TMDB API and Firebase Authentication. Includes multi-page navigation, search, watchlist, and responsive design that mirrors the Netflix experience.",
-      technologies: ["Next.js", "TypeScript" , "Tailwind CSS" , "FireBase" , "TMDB API"],
+      technologies: ["Next.js", "TypeScript" , "Tailwind CSS" , "Firebase" , "TMDB API"],
       links: [
         {
           type: "Website",
@@ -299,7 +310,7 @@ export const DATA = {
       active: true,
       description:
         "A comprehensive Full-Stack Web Application that modernizes gym operations by replacing traditional manual record-keeping with a digital management system.",
-      technologies: ["Next.js", "React.js", "TypeScript" , "Tailwind CSS" , "FireBase" , "Framer Motion"],
+      technologies: ["Next.js", "React.js", "TypeScript" , "Tailwind CSS" , "Firebase" , "Framer Motion"],
       links: [
         {
           type: "Website",
