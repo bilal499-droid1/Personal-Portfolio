@@ -52,6 +52,13 @@ export const DATA = {
 
         navbar: true,
       },
+      Resume: {
+        name: "Resume",
+        url: "/Muhammad_Shaheer_Malik_Full_Stack_Resume.pdf",
+        icon: Icons.resume,
+
+        navbar: true,
+      },
     },
   },
 
