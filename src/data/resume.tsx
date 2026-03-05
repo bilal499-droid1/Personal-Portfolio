@@ -23,13 +23,12 @@ I specialize in Next.js, React.js, React Native, TypeScript and Node.js, Deliver
   avatarUrl: "/mine.png",
 
 skills: [
-  "Frontend & Mobile: Next.js, React.js, React Native, TypeScript",
-  "Backend & APIs: Node.js, Express.js, FastAPI, REST APIs, Microservices",
-  "Databases & Cloud: Firebase (Auth, Firestore, Cloud Functions), MongoDB",
-  "Styling & UI: Tailwind CSS, Material UI (MUI)",
-  "AI & Automation: Google Gemini AI, NLP Basics, ML-driven Recommendations",
-  "UI/UX Design: Figma",
-  "Version Control & Collaboration: Git, GitHub"
+  "Frontend & Mobile: Next.js, React.js, React Native, TypeScript, Tailwind CSS, Framer Motion",
+  "Backend & APIs: Node.js, Express.js, FastAPI, REST API Design, Microservices",
+  "AI & LLM Integration: Gemini AI, Prompt Engineering, LLM API Integration, NLP, TF-IDF, scikit-learn",
+  "Databases & Storage: Firebase (Firestore, Auth, Storage), MongoDB, PostgreSQL, Cloudinary",
+  "Dev Tools & Workflow: Git, GitHub, CI/CD, Agile/Scrum, Figma",
+  "Cloud & Deployment: Firebase Hosting, Vercel, Cloud Functions",
   ],
 
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -279,6 +278,7 @@ skills: [
       image: "",
       video: "./SecureBank.mp4",
     },
+
     {
       title: "Netflix Clone",
       href: "https://netflix-clone-ashy-eight-83.vercel.app/",
@@ -306,7 +306,7 @@ skills: [
     {
       title: "RangeFit Gym",
       href: "https://range-fit-gym-demo.vercel.app/",
-      dates: "Sep 2025 - Present",
+      dates: "June 2025 - Present",
       active: true,
       description:
         "A comprehensive Full-Stack Web Application that modernizes gym operations by replacing traditional manual record-keeping with a digital management system.",
@@ -320,6 +320,30 @@ skills: [
       ],
       image: "",
       video: "./rangeFit.mp4",
+    },
+
+      {
+      title: "StratSim - Strategic Buisness Simulation",
+      href: "https://stratsim-weld.vercel.app/",
+      dates: "Aug 2025 - Present",
+      active: true,
+      description:
+        "A production-grade strategic business simulation platform built with Next.js 14, React 19, TypeScript & Firebase. Run a virtual company through multi-quarter scenarios, compete against AI opponents, and export PDF reports — all wrapped in a premium glass-morphism UI.",
+      technologies: ["Next.js", "React", "TypeScript" , "Tailwind CSS" , "Three.js" , "Firebase" , "Framer Motion"],
+      links: [
+        {
+          type: "Website",
+          href: "https://stratsim-weld.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/malik-shaheer03/StratSim-Business-Simulation",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "./StratSim.mp4",
     },
 
   ],
