@@ -222,7 +222,6 @@ skills: [
         },
         {
           type: "Source",
-          href: "https://github.com/malik-shaheer03/career-guidance-system",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -248,7 +247,6 @@ skills: [
         },
         {
           type: "Source",
-          href: "https://github.com/malik-shaheer03/netflix-clone",
           icon: <Icons.github className="size-3" />,
         },
       ],
