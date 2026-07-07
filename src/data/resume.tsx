@@ -3,27 +3,27 @@ import { url } from "inspector";
 import { HomeIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Muhammad\nShaheer\nMalik",
+  name: "Muhammad\nBilal",
   initials: "MSM",
-  url: "https://shaheer-portfolio-omega.vercel.app/",
+  url: "https://portfolio-website-lemon-eight-46.vercel.app/",
   location: "ISLAMABAD, PAKISTAN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     `Full Stack Software Engineer building scalable SaaS & AI-driven Web and Mobile Applications. 
   
-I specialize in Next.js, React.js, React Native, TypeScript and Node.js, Delivering production-ready Systems with real Business Impact. From role-based SaaS platforms to AI-Powered Mobile Apps.`,
+I specialize in Next.js, React.js, TypeScript and Node.js, Delivering production-ready Systems with real Business Impact. From role-based SaaS platforms to AI-Powered Mobile Apps.`,
   summary:
-    `I’m a Full Stack Software Engineer with 2+ years of hands-on experience building end-to-end Web and Mobile Applications using Next.js, React, React Native, TypeScript and Node.js.
+    `I’m a Full Stack Software Engineer with 1+ years of hands-on experience building end-to-end Web Applications using Next.js, React, TypeScript and Node.js.
     
   I’ve worked on scalable SaaS products and AI-powered Platforms, Designing Systems that Automate Workflows, Improve Efficiency and Deliver seamless User Experiences. My work includes real-time Applications, Secure Authentication Systems, Cloud-Based Architectures and API-driven Backends.
 
   Beyond development, I value clean Architecture, Maintainable Code and Performance-Optimized UI/UX. I enjoy collaborating in Remote and Agile Environments, Taking ownership from Idea to Deployment and Continuously learning Modern Technologies.
   
   Currently open to Remote, International and Freelance Opportunities where I can contribute to impactful products and grow with a strong Engineering Team.`,
-  avatarUrl: "/mine.png",
+  avatarUrl: "/mine.jpeg",
 
 skills: [
-  "Frontend & Mobile: Next.js, React.js, React Native, TypeScript, Tailwind CSS, Framer Motion",
+  "Frontend : Next.js, React.js, TypeScript, Tailwind CSS, Framer Motion",
   "Backend & APIs: Node.js, Express.js, FastAPI, REST API Design, Microservices",
   "AI & LLM Integration: Gemini AI, Prompt Engineering, LLM API Integration, NLP, TF-IDF, scikit-learn",
   "Databases & Storage: Firebase (Firestore, Auth, Storage), MongoDB, PostgreSQL, Cloudinary",
@@ -33,38 +33,38 @@ skills: [
 
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "shaheermalik03@gmail.com",
+    email: "bilalmk498@gmail.com",
     tel: "+923150058936",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/malik-shaheer03",
+        url: "https://github.com/bilal499-droid1/bilal499-droid1",
         icon: Icons.github,
 
         navbar: true,
       },
       Instagram: {
         name: "Instagram",
-        url: "https://instagram.com/malik_shaheer03",
+        url: "https://www.instagram.com/m___bilall/",
         icon: Icons.instagram,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/malik-shaheer03",
+        url: "www.linkedin.com/in/muhammad-bilal-6a4661255",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       Email: {
         name: "Send Email",
-        url: "mailto:shaheermalik03@gmail.com",
+        url: "mailto:bilalmk498@gmail.com",
         icon: Icons.email,
 
         navbar: true,
       },
       Resume: {
         name: "Resume",
-        url: "/Muhammad_Shaheer_Malik_Full_Stack_Resume.pdf",
+        //url: "/Muhammad_Shaheer_Malik_Full_Stack_Resume.pdf",
         icon: Icons.resume,
 
         navbar: true,
@@ -87,7 +87,7 @@ skills: [
     // },
 
     {
-      company: "GDSC CUI",
+      company: "GDSC Nutech",
       badges: ["CO LEAD"],
       href: "",
       location: "Remote",
@@ -100,74 +100,87 @@ skills: [
     },
 
     {
-      company: "Pakistan Television Corporation Limited",
+      company: "Hexler Tech",
       badges: ["Internship"],
       href: "",
       location: "Onsite",
       title: "Web Developer",
-      logoUrl: "/ptv.png",
-      start: "Aug 2025",
-      end: "Oct 2025",
+      logoUrl: "/hexler.jpg",
+      start: "june 2025",
+      end: "August 2025",
+      description:
+        "Completed an On-Site Internship where I Contributed to Designing, Developing, and Optimizing Web Applications. Gained Hands-On Experience in both Frontend and Backend Technologies, Improving System Functionality and User Experience. Strengthened Skills in Collaborative Development and Problem-Solving within a Professional Environment.",
+    },
+    
+    {
+      company: "Volioms Innovations ltd",
+      badges: ["Internship"],
+      href: "",
+      location: "Onsite",
+      title: "Web Developer",
+      logoUrl: "/vol.jpg",
+      start: "march 2025",
+      end: "June 2025",
       description:
         "Completed an On-Site Internship where I Contributed to Designing, Developing, and Optimizing Web Applications. Gained Hands-On Experience in both Frontend and Backend Technologies, Improving System Functionality and User Experience. Strengthened Skills in Collaborative Development and Problem-Solving within a Professional Environment.",
     },
   ],
   education: [
     {
-      school: "COMSATS Univeristy Islamabad",
-      href: "https://www.comsats.edu.pk/",
-      degree: "Bachelors in Software Engineering",
-      logoUrl: "/Comsats.jpg",
+      school: "Nutech Univeristy Islamabad",
+      href: "https://www.nutech.edu.pk/",
+      degree: "Bachelors in Computer Science",
+      logoUrl: "/nutech.png",
       start: "2022",
       end: "2026",
     },
   ],
   projects: [
     {
-      title: "Traccar",
-      href: "https://malik-shaheer03.github.io/Traccar/",
-      dates: "Dec 2024 - Present",
+      title: "Clinix.ai",
+      href: "https://github.com/bilal499-droid1/FYP-MERN-PROJECT",
+      dates: "Nov 2025 - june 2026",
       active: true,
       description:
-        "A car tracking and security system with a landing page, sign-in/signup, dashboard and Firebase integration.",
-      technologies: ["React.js", "CSS", "Firebase", "GitHub Pages"],
+        "Clinix.ai is an AI-powered healthcare platform that converts doctor-patient conversations into structured SOAP reports using Speech-to-Text and NLP, helping automate medical documentation and streamline clinical workflows.",
+      technologies: ["React.js", "node.js", "Express.js", "TailwindCSS", "MongoDB", "GitHub Pages"],
       links: [
-        {
-          type: "Website",
-          href: "https://malik-shaheer03.github.io/Traccar/",
-          icon: <Icons.globe className="size-3" />,
-        },
+      //  {
+        //  type: "Website",
+          //href: "https://malik-shaheer03.github.io/Traccar/",
+          //icon: <Icons.globe className="size-3" />,
+        //},
         {
           type: "Source",
-          href: "https://github.com/malik-shaheer03/Traccar",
+          href: "https://github.com/bilal499-droid1/FYP-MERN-PROJECT",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "./Traccar.mp4",
+      video: "./fypvideo.mp4",
     },
     {
-      title: "SMST Dashboard",
-      href: "https://malik-shaheer03.github.io/SMST-Dashboard-HTML-CSS/Dashboard/dashboard.html",
-      dates: "May 2025 - Present",
+      title: "Ecommerce Store",
+      href: "https://github.com/bilal499-droid1/GoCartStore",
+      dates: "September 2025 ",
       active: true,
       description:
-        "Developed a multi-screen dashboard with sections for video content, resources, account settings, and course enrollment.",
-      technologies: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "Developed an Ecommerce store for multi vendor to add store and sell different productss.",
+      technologies: ["MERN", "TailwindCSS", "GitHub Pages"],
       links: [
         {
           type: "Website",
-          href: "https://malik-shaheer03.github.io/SMST-Dashboard-HTML-CSS/Dashboard/dashboard.html",
+          href: "go-cart-store-git-main-mmohammadbilal56s-projects.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/malik-shaheer03/SMST-Dashboard-HTML-CSS",
+          href: "https://github.com/bilal499-droid1/GoCartStore",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "./smstdash.mp4",
+      video: "./gocartstore.mp4",
     },
     {
       title: "Portfolio Website",
@@ -192,23 +205,7 @@ skills: [
       image: "",
       video: "./PortfolioWebsite.mp4",
     },
-    {
-      title: "Flight Management System",
-      dates: "Jul 2023 - Present",
-      active: true,
-      description:
-        "Developed a C++-based Flight Management System using DSA and Prim’s Algorithm to calculate shortest travel routes between user-selected destinations with route options like Faisal Movers and Daewoo",
-      technologies: ["C++", "DSA", "Prim’s Algorithm", "CLI-based Interface"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/malik-shaheer03/Flight-Management-System-DSA-Project",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "./flightmsDSA.mp4",
-    },
+    
     {
       title: "CareerAI - Career Guidance System",
       href: "https://career-guidance-system-inky.vercel.app/",
@@ -232,52 +229,8 @@ skills: [
       image: "",
       video: "./CareerAI.mp4",
     },
-    {
-      title: "Lumina - Premium Wallpaper Collection",
-      href: "https://lumina-two-ruby.vercel.app/",
-      dates: "June 2025 - Present",
-      active: true,
-      description:
-        "A Stunning Wallpaper Discovery Platform using Modern Web Technologies. This responsive Web App delivers a Cinematic browsing Experience with Advanced Features.",
-      technologies: ["Next.js", "TypeScript" , "Material-UI" , "Tailwind CSS", "Pexels API"],
-      links: [
-        {
-          type: "Website",
-          href: "https://lumina-two-ruby.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/malik-shaheer03/Lumina",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "./Lumina.mp4",
-    },
-    {
-      title: "SecureBank",
-      href: "https://secure-bank-nine.vercel.app/",
-      dates: "June 2025 - Present",
-      active: true,
-      description:
-        "A Modern Banking Web App evolved from a first-semester Console Project into a secure, user-friendly Financial Platform. Built with Firebase and Real-Time Features, It Redefines Traditional Banking with a Sleek, Intuitive Interface.",
-      technologies: ["React.js" , "Next.js", "TypeScript" , "Tailwind CSS" , "Firebase"],
-      links: [
-        {
-          type: "Website",
-          href: "https://secure-bank-nine.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/malik-shaheer03/SecureBank",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "./SecureBank.mp4",
-    },
+    
+    
 
     {
       title: "Netflix Clone",
@@ -322,29 +275,6 @@ skills: [
       video: "./rangeFit.mp4",
     },
 
-      {
-      title: "StratSim - Strategic Buisness Simulation",
-      href: "https://stratsim-weld.vercel.app/",
-      dates: "Aug 2025 - Present",
-      active: true,
-      description:
-        "A production-grade strategic business simulation platform built with Next.js 14, React 19, TypeScript & Firebase. Run a virtual company through multi-quarter scenarios, compete against AI opponents, and export PDF reports — all wrapped in a premium glass-morphism UI.",
-      technologies: ["Next.js", "React", "TypeScript" , "Tailwind CSS" , "Three.js" , "Firebase" , "Framer Motion"],
-      links: [
-        {
-          type: "Website",
-          href: "https://stratsim-weld.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/malik-shaheer03/StratSim-Business-Simulation",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "./StratSim.mp4",
-    },
 
   ],
 } as const;

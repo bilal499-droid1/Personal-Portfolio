@@ -21,25 +21,23 @@ export const metadata: Metadata = {
   description: DATA.description,
   icons: {
     icon: [
-      { url: "/favicon_io/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon_io/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon_io/favicon.ico", sizes: "any" },
+      { url: "/favicon_io/faviconn.jpeg", sizes: "any", type: "image/jpeg" },
     ],
     apple: [
-      { url: "/favicon_io/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      { url: "/favicon_io/faviconn.jpeg", sizes: "180x180", type: "image/jpeg" },
     ],
     other: [
       {
         rel: "icon",
-        url: "/favicon_io/android-chrome-192x192.png",
+        url: "/favicon_io/faviconn.jpeg",
         sizes: "192x192",
-        type: "image/png",
+        type: "image/jpeg",
       },
       {
         rel: "icon",
-        url: "/favicon_io/android-chrome-512x512.png",
+        url: "/favicon_io/faviconn.jpeg",
         sizes: "512x512",
-        type: "image/png",
+        type: "image/jpeg",
       },
     ],
   },

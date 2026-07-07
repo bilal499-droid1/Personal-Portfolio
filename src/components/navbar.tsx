@@ -46,7 +46,7 @@ export default function Navbar() {
         ))}
         <Separator orientation="vertical" className="h-full" />
         {Object.entries(DATA.contact.social)
-          .filter(([_, social]) => social.icon)
+          .filter(([_, social]) => social.icon && social.url)
           .map(([name, social]) => (
             <DockIcon key={name}>
               <Tooltip>
