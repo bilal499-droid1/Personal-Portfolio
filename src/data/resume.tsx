@@ -256,24 +256,24 @@ skills: [
       video: "./netflixClone.mp4",
     },
 
-    {
-      title: "RangeFit Gym",
-      href: "https://range-fit-gym-demo.vercel.app/",
-      dates: "June 2025 - Present",
-      active: true,
-      description:
-        "A comprehensive Full-Stack Web Application that modernizes gym operations by replacing traditional manual record-keeping with a digital management system.",
-      technologies: ["Next.js", "React.js", "TypeScript" , "Tailwind CSS" , "Firebase" , "Framer Motion"],
-      links: [
-        {
-          type: "Website",
-          href: "https://range-fit-gym-demo.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "./rangeFit.mp4",
-    },
+    //{
+      //title: "RangeFit Gym",
+      //href: "https://range-fit-gym-demo.vercel.app/",
+      //dates: "June 2025 - Present",
+      //active: true,
+      //description:
+        //"A comprehensive Full-Stack Web Application that modernizes gym operations by replacing traditional manual record-keeping with a digital management system.",
+      //technologies: ["Next.js", "React.js", "TypeScript" , "Tailwind CSS" , "Firebase" , "Framer Motion"],
+      //links: [
+        //{
+          //type: "Website",
+          //href: "https://range-fit-gym-demo.vercel.app/",
+          //icon: <Icons.globe className="size-3" />,
+        //},
+      //],
+      //image: "",
+      //video: "./rangeFit.mp4",
+    //},
 
 
   ],
