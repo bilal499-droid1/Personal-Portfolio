@@ -203,7 +203,7 @@ skills: [
         },
       ],
       image: "",
-      video: "./PortfolioWeb.mp4",
+      video: "./portfolioWeb.mp4",
     },
     
     {
