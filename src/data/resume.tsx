@@ -156,7 +156,7 @@ skills: [
         },
       ],
       image: "",
-      video: "./fypvideo.mp4",
+      video: "/fypvideo.mp4",
     },
     {
       title: "Ecommerce Store",
@@ -179,7 +179,7 @@ skills: [
         },
       ],
       image: "",
-      video: "./gocartstore.mp4",
+      video: "/gocartstore.mp4",
     },
     {
       title: "Portfolio Website",
@@ -202,7 +202,7 @@ skills: [
         },
       ],
       image: "",
-      video: "./portfolioWeb.mp4",
+      video: "/portfolioweb.mp4",
     },
     
     {
@@ -226,7 +226,7 @@ skills: [
         },
       ],
       image: "",
-      video: "./CareerAI.mp4",
+      video: "/CareerAI.mp4",
     },
     
     
@@ -251,7 +251,7 @@ skills: [
         },
       ],
       image: "",
-      video: "./netflixClone.mp4",
+      video: "/netflixClone.mp4",
     },
 
     //{
