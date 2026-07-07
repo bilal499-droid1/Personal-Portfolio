@@ -103,12 +103,21 @@ export function ProjectCard({
         {links && links.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1">
             {links?.map((link, idx) => (
-              <Link href={link?.href} key={idx} target="_blank">
-                <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px] hover:scale-105 transition-all duration-300">
-                  {link.icon}
-                  {link.type}
-                </Badge>
-              </Link>
+              link?.href ? (
+                <Link href={link.href} key={idx} target="_blank">
+                  <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px] hover:scale-105 transition-all duration-300">
+                    {link.icon}
+                    {link.type}
+                  </Badge>
+                </Link>
+              ) : (
+                <span key={idx}>
+                  <Badge className="flex gap-2 px-2 py-1 text-[10px] hover:scale-105 transition-all duration-300">
+                    {link.icon}
+                    {link.type}
+                  </Badge>
+                </span>
+              )
             ))}
           </div>
         )}
