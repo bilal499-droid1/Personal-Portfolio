@@ -193,12 +193,12 @@ skills: [
       links: [
         {
           type: "Website",
-          href: "https://shaheer-portfolio-omega.vercel.app/",
+          href: "https://personal-portfolio-ten-tawny-15.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/malik-shaheer03/shaheer-portfolio",
+          href: "https://github.com/bilal499-droid1/Personal-Portfolio",
           icon: <Icons.github className="size-3" />,
         },
       ],
