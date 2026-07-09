@@ -21,13 +21,13 @@ I specialize in Next.js, React.js, TypeScript and Node.js, Delivering production
   Currently open to Remote, International and Freelance Opportunities where I can contribute to impactful products and grow with a strong Engineering Team.`,
   avatarUrl: "/mine.jpeg",
 
-skills: [
-  "Frontend : Next.js, React.js, TypeScript, Tailwind CSS, Framer Motion",
-  "Backend & APIs: Node.js, Express.js, FastAPI, REST API Design, Microservices",
-  "AI & LLM Integration: Gemini AI, Prompt Engineering, LLM API Integration, NLP, TF-IDF, scikit-learn",
-  "Databases & Storage: Firebase (Firestore, Auth, Storage), MongoDB, PostgreSQL, Cloudinary",
-  "Dev Tools & Workflow: Git, GitHub, CI/CD, Agile/Scrum, Figma",
-  "Cloud & Deployment: Firebase Hosting, Vercel, Cloud Functions",
+  skills: [
+    "Frontend : Next.js, React.js, TypeScript, Tailwind CSS, Framer Motion",
+    "Backend & APIs: Node.js, Express.js, FastAPI, REST API Design, Microservices",
+    "AI & LLM Integration: Gemini AI, Prompt Engineering, LLM API Integration, NLP, TF-IDF, scikit-learn",
+    "Databases & Storage: Firebase (Firestore, Auth, Storage), MongoDB, PostgreSQL, Cloudinary",
+    "Dev Tools & Workflow: Git, GitHub, CI/CD, Agile/Scrum, Figma",
+    "Cloud & Deployment: Firebase Hosting, Vercel, Cloud Functions",
   ],
 
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -39,7 +39,6 @@ skills: [
         name: "GitHub",
         url: "https://github.com/bilal499-droid1/bilal499-droid1",
         icon: Icons.github,
-
         navbar: true,
       },
       Instagram: {
@@ -49,42 +48,26 @@ skills: [
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/muhammad-bilal-6a4661255",
+        url: "https://www.linkedin.com/in/muhammad-bilal-6a4661255",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       Email: {
         name: "Send Email",
         url: "mailto:bilalmk498@gmail.com",
         icon: Icons.email,
-
         navbar: true,
       },
       Resume: {
         name: "Resume",
         //url: "/Muhammad_Shaheer_Malik_Full_Stack_Resume.pdf",
         icon: Icons.resume,
-
         navbar: true,
       },
     },
   },
 
   work: [
-    // {
-    //   company: "Upwork",
-    //   href: "https://www.upwork.com/freelancers/~01817b3a08659da3c8",
-    //   badges: [],
-    //   location: "Remote",
-    //   title: "Freelancer Web Developer",
-    //   logoUrl: "/upwork.svg",
-    //   start: "2022",
-    //   end: " Ongoing",
-    //   description:
-    //     "As a full-stack web developer, I specialize in creating dynamic, responsive websites and applications using Next.js and Tailwind CSS, backed by robust databases like MongoDB and PostgreSQL. With experience on platforms like Upwork, I've successfully delivered high-quality solutions that meet clients' needs and exceed their expectations.",
-    // },
-
     {
       company: "GDSC Nutech",
       badges: ["CO LEAD"],
@@ -97,7 +80,6 @@ skills: [
       description:
         "As the Co-Lead of GDSC CUI, I played a key role in leading web development initiatives, mentoring students, and organizing events to foster a collaborative learning environment. My focus was on guiding the team in building impactful projects using the latest web technologies, helping our university community grow in technical expertise and innovation.",
     },
-
     {
       company: "Hexler Tech",
       badges: ["Internship"],
@@ -110,7 +92,6 @@ skills: [
       description:
         "Completed an On-Site Internship where I Contributed to Designing, Developing, and Optimizing Web Applications. Gained Hands-On Experience in both Frontend and Backend Technologies, Improving System Functionality and User Experience. Strengthened Skills in Collaborative Development and Problem-Solving within a Professional Environment.",
     },
-    
     {
       company: "Volioms Innovations ltd",
       badges: ["Internship"],
@@ -144,11 +125,6 @@ skills: [
         "Clinix.ai is an AI-powered healthcare platform that converts doctor-patient conversations into structured SOAP reports using Speech-to-Text and NLP, helping automate medical documentation and streamline clinical workflows.",
       technologies: ["React.js", "node.js", "Express.js", "TailwindCSS", "MongoDB", "GitHub Pages"],
       links: [
-      //  {
-        //  type: "Website",
-          //href: "https://malik-shaheer03.github.io/Traccar/",
-          //icon: <Icons.globe className="size-3" />,
-        //},
         {
           type: "Source",
           href: "https://github.com/bilal499-droid1/FYP-MERN-PROJECT",
@@ -169,7 +145,7 @@ skills: [
       links: [
         {
           type: "Website",
-          href: "go-cart-store-git-main-mmohammadbilal56s-projects.vercel.app",
+          href: "https://go-cart-store-git-main-mmohammadbilal56s-projects.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -204,7 +180,6 @@ skills: [
       image: "",
       video: "/portfolioweb.mp4",
     },
-    
     {
       title: "CareerAI - Career Guidance System",
       href: "https://career-guidance-system-inky.vercel.app/",
@@ -228,9 +203,6 @@ skills: [
       image: "",
       video: "/CareerAI.mp4",
     },
-    
-    
-
     {
       title: "Netflix Clone",
       href: "https://netflix-clone-ashy-eight-83.vercel.app/",
@@ -238,7 +210,7 @@ skills: [
       active: true,
       description:
         "A pixel-perfect Netflix Clone built with Next.js 15, TypeScript, and Tailwind CSS, featuring real-time data from TMDB API and Firebase Authentication. Includes multi-page navigation, search, watchlist, and responsive design that mirrors the Netflix experience.",
-      technologies: ["Next.js", "TypeScript" , "Tailwind CSS" , "Firebase" , "TMDB API"],
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Firebase", "TMDB API"],
       links: [
         {
           type: "Website",
@@ -253,26 +225,30 @@ skills: [
       image: "",
       video: "/netflixClone.mp4",
     },
-
-    //{
-      //title: "RangeFit Gym",
-      //href: "https://range-fit-gym-demo.vercel.app/",
-      //dates: "June 2025 - Present",
-      //active: true,
-      //description:
-        //"A comprehensive Full-Stack Web Application that modernizes gym operations by replacing traditional manual record-keeping with a digital management system.",
-      //technologies: ["Next.js", "React.js", "TypeScript" , "Tailwind CSS" , "Firebase" , "Framer Motion"],
-      //links: [
-        //{
-          //type: "Website",
-          //href: "https://range-fit-gym-demo.vercel.app/",
-          //icon: <Icons.globe className="size-3" />,
-        //},
-      //],
-      //image: "",
-      //video: "./rangeFit.mp4",
-    //},
-
-
+    {
+      title: "RangeFit Gym",
+      href: "https://range-fit-gym-demo.vercel.app/",
+      dates: "June 2025 - Present",
+      active: true,
+      description:
+        "A comprehensive Full-Stack Web Application that modernizes gym operations by replacing traditional manual record-keeping with a digital management system.",
+      technologies: [
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Firebase",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://range-fit-gym-demo.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "./rangeFit.mp4",
+    },
   ],
-} as const;
+}
