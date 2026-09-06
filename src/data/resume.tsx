@@ -8,17 +8,19 @@ export const DATA = {
   location: "ISLAMABAD, PAKISTAN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    `Full Stack Software Engineer building scalable SaaS & AI-driven Web and Mobile Applications. 
-  
-I specialize in Next.js, React.js, TypeScript and Node.js, Delivering production-ready Systems with real Business Impact. From role-based SaaS platforms to AI-Powered Mobile Apps.`,
-  summary:
-    `I’m a Full Stack Software Engineer with 1+ years of hands-on experience building end-to-end Web Applications using Next.js, React, TypeScript and Node.js.
-    
-  I’ve worked on scalable SaaS products and AI-powered Platforms, Designing Systems that Automate Workflows, Improve Efficiency and Deliver seamless User Experiences. My work includes real-time Applications, Secure Authentication Systems, Cloud-Based Architectures and API-driven Backends.
+    `Full Stack Software Engineer & DevOps Engineer building scalable SaaS, AI-driven Web & Mobile Applications.
 
-  Beyond development, I value clean Architecture, Maintainable Code and Performance-Optimized UI/UX. I enjoy collaborating in Remote and Agile Environments, Taking ownership from Idea to Deployment and Continuously learning Modern Technologies.
-  
-  Currently open to Remote, International and Freelance Opportunities where I can contribute to impactful products and grow with a strong Engineering Team.`,
+I specialize in Next.js, React.js, TypeScript, FastAPI, Django, Flask, LangChain & LangGraph, delivering production-ready systems with real business impact. From role-based SaaS platforms and Agentic AI applications to cloud infrastructure, CI/CD and automated deployments.`,
+  summary:
+    `I’m a **Full-Stack Software Engineer with 3+ years of hands-on experience** building scalable, high-performance web applications and digital products from concept to deployment.
+
+I specialize in **MERN Stack, Next.js, React, TypeScript, Node.js, Django, and FastAPI**, developing custom web applications, SaaS platforms, REST APIs, real-time applications, secure authentication systems, and database-driven solutions.
+
+**DevOps:** Docker, CI/CD with GitHub Actions, Linux Server Administration, Nginx, AWS (EC2, S3), Railway, Render, and Git Workflows. I handle application deployment, server configuration, production environments, and development-to-deployment workflows.
+
+Beyond development, I focus on **clean architecture, maintainable code, performance optimization, responsive UI/UX, and reliable production systems**. I enjoy working in remote and Agile environments, collaborating with clients and teams, and taking ownership of projects from **idea to development, deployment, and ongoing improvement**.
+
+I’m open to **remote, international, and freelance opportunities** where I can build impactful digital products, solve challenging technical problems, and create long-term value for clients.`,
   avatarUrl: "/mine.jpeg",
 
   skills: [
@@ -28,6 +30,7 @@ I specialize in Next.js, React.js, TypeScript and Node.js, Delivering production
     "Databases & Storage: Firebase (Firestore, Auth, Storage), MongoDB, PostgreSQL, Cloudinary",
     "Dev Tools & Workflow: Git, GitHub, CI/CD, Agile/Scrum, Figma",
     "Cloud & Deployment: Firebase Hosting, Vercel, Cloud Functions",
+    "DevOps: Docker, CI/CD (GitHub Actions), Linux Server Administration, Nginx, AWS (EC2, S3), Railway, Render, Git Workflows",
   ],
 
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -68,6 +71,18 @@ I specialize in Next.js, React.js, TypeScript and Node.js, Delivering production
   },
 
   work: [
+    {
+      company: "Hexler Tech",
+      badges: ["Full Time"],
+      href: "",
+      location: "Onsite",
+      title: "Full Stack Developer and DevOps Engineer",
+      logoUrl: "/hexler.jpg",
+      start: "June 2026",
+      end: "Present",
+      description:
+        "Building and shipping full stack web applications end to end while owning the deployment side of delivery. Working across Next.js, React and Node.js on the product, and Docker, GitHub Actions CI/CD, Nginx and cloud infrastructure on the operations side to keep releases automated, reliable and production-ready.",
+    },
     {
       company: "GDSC Nutech",
       badges: ["CO LEAD"],
@@ -114,8 +129,47 @@ I specialize in Next.js, React.js, TypeScript and Node.js, Delivering production
       start: "2022",
       end: "2026",
     },
+    {
+      school: "Emalah Foundation School & College",
+      href: "",
+      degree: "ICS",
+      logoUrl: "/logo-20260111.webp",
+      start: "2019",
+      end: "2021",
+    },
+    {
+      school: "F G Public Secondary School",
+      href: "",
+      degree: "Matriculation",
+      logoUrl: "/fgschool.jpg",
+      start: "2018",
+      end: "2019",
+    },
   ],
   projects: [
+    {
+      title: "Sugarloop Full Stack Ordering System",
+      href: "https://api.sugarloop.pk",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "A full stack online ordering system built for Sugarloop, covering menu browsing, cart and checkout, order placement and order management through a REST API backend. Deployed on a live production domain with a custom server setup.",
+      technologies: ["Next.js", "React.js", "TypeScript", "Node.js", "Tailwind CSS", "REST API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://api.sugarloop.pk",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/bilal499-droid1/sugarloop-frontend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/sugarloop-video.mp4",
+    },
     {
       title: "Clinix.ai",
       href: "https://github.com/bilal499-droid1/FYP-MERN-PROJECT",
