@@ -142,11 +142,29 @@ I’m open to **remote, international, and freelance opportunities** where I can
       href: "",
       degree: "Matriculation",
       logoUrl: "/fgschool.jpg",
-      start: "2018",
+      start: "2017",
       end: "2019",
     },
   ],
   projects: [
+    {
+      title: "Sugarloop Finance",
+      href: "https://finance.sugarloop.pk",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "A finance management platform built for Sugarloop to track revenue, expenses and business transactions, with dashboards and reports that give a clear view of the company's financial health. Deployed on a live production domain.",
+      technologies: ["Next.js", "React.js", "TypeScript", "Node.js", "Tailwind CSS", "REST API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://finance.sugarloop.pk",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/financeproject.mp4",
+    },
     {
       title: "Sugarloop Full Stack Ordering System",
       href: "https://api.sugarloop.pk",
